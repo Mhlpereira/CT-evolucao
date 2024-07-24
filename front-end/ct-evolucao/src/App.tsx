@@ -9,6 +9,9 @@ const router = createBrowserRouter([
     path: "/",
     element: <PaginaInicial/>
   },
+  {
+    path: "/modalidades",
+  }
 
  
 ]);
