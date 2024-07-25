@@ -3,6 +3,7 @@ import {
   RouterProvider
 } from "react-router-dom"
 import { PaginaInicial } from "./paginas";
+import { ModalidadePage } from "./paginas/modalidades";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/modalidades",
+    element: <ModalidadePage/>
   }
 
  

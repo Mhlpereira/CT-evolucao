@@ -14,7 +14,7 @@ export function PaginaInicial() {
                 </div>
 
             </div>
-            <Footer/>
+            <Footer/> 
         </div>
     )
 }
