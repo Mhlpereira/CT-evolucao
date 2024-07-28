@@ -10,4 +10,4 @@ const modalidadeSchema = new mongoose.Schema({
 
 const modalidade =  mongoose.model("modalidades", modalidadeSchema);
 
-export default modalidade;
+export  {modalidade , modalidadeSchema };

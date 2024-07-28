@@ -1,4 +1,4 @@
-import { Controller, Get, HttpCode, HttpStatus, Post } from "@nestjs/common";
+import { Body, Controller, Get, HttpCode, HttpStatus, Post } from "@nestjs/common";
 import professor from "db/modelos/professores";
 
 @Controller
@@ -12,7 +12,7 @@ export class ProfessorController{
 
     @Post()
     @HttpCode(HttpStatus.CREATED)
-    async cadastrarProfessor(){
+    async cadastrarProfessor(@Body() criarProfessorDTO){
 
     }
 
